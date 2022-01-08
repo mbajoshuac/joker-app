@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import Navbar from './component/layout/Navbar'
+import Joke from './component/Joke'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+ 
 
   return (
     <div className="App">
       <Navbar />
+        <Joke />     
     </div>
   )
 }

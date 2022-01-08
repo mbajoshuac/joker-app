@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 
-class Navbar extends Component {
-	render() {
+const Navbar = () => {
 		return (
 			<div>
-				<nav class="navbar navbar-light bg-light">
-					<a class="navbar-brand" href="#">
+				<nav className="navbar navbar-light bg-dark">
+					<a className="navbar-brand text-white" href="#">
 						Joker Application
 					</a>
-					
+
 				</nav>
 			</div>
 		);
 	}
-}
+
 
 
 export default Navbar;
